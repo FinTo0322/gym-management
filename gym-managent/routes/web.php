@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/', [MemberController::class, 'home'])->name('home');
+Route::post('/create', [MemberController::class, 'create'])->name('create');

@@ -16,7 +16,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">ewan</th>
+                                        <th scope="row">{{ $member->name }}</th>
                                         <th>ewan@ewan.ko</th>
                                         <th>tambay premium</th>
                                         <th>march 13 2040</th>
